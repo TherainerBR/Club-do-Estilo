@@ -452,15 +452,50 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+ 
+ 
+@media (max-width: 576px) {
+  
+  .logo-profile{
+    margin: auto;
+    border-radius: 50%;
+    height: 50px;
+    margin: 0px 13px 0px -10px;
+   }
+  .navbar-brand{
+    margin: 0px -65px;
+    padding: 0;
+  }
+
+  
+  .container .oi-menu{
+    display: none;
+  }
+}
+
   @media (min-width: 576px) {
+    
+    .logo-profile{
+      border-radius: 50%;
+    }
     .container {
       max-width: 540px; } }
+
   @media (min-width: 768px) {
     .container {
-      max-width: 720px; } }
+      max-width: 720px; } 
+    
+      .logo-profile{
+        border-radius: 50%;
+      }
+    }
+
+
   @media (min-width: 992px) {
     .container {
       max-width: 960px; } }
+
+
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
@@ -1996,6 +2031,17 @@ textarea.form-control {
       display: inline-block;
       width: auto;
       vertical-align: middle; }
+
+    .logo-profile{
+      border-radius: 50%;
+      width: 110px;
+      height: 110px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: auto;
+    }
+
     .form-inline .form-control-plaintext {
       display: inline-block; }
     .form-inline .input-group,
