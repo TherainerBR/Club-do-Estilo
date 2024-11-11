@@ -452,6 +452,9 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+
+
+
  
  
 @media (max-width: 576px) {
@@ -2033,6 +2036,7 @@ textarea.form-control {
       vertical-align: middle; }
 
     .logo-profile{
+      margin-right: 20rem;
       border-radius: 50%;
       width: 110px;
       height: 110px;
@@ -9061,7 +9065,7 @@ textarea.form-control {
     font-size: 24px !important; }
   .team .img {
     width: 100%;
-    height: 350px;
+    height: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
     position: relative;
@@ -9910,3 +9914,5 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
